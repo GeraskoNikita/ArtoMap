@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Красный фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F44336"/>
+        </shape>
+    </item>
+
+    <!-- Иконка удаления -->
+    <item
+        android:drawable="@drawable/ic_delete_white"
+        android:gravity="center|end"
+        android:right="32dp" />
+</layer-list>
